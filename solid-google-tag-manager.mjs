@@ -1,5 +1,4 @@
-"use client";
-export default function (tag) {
+function createGoogleTagManagerElement(tag) {
   return createScriptLoader({
     src: `https://www.googletagmanager.com/gtag/js?id=${tag}`,
     async onLoad() {
@@ -13,3 +12,5 @@ export default function (tag) {
     },
   });
 }
+
+export { createGoogleTagManagerElement };
