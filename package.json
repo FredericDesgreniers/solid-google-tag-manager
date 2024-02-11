@@ -1,16 +1,26 @@
 {
   "name": "solid-google-tag-manager",
-  "version": "1.1.0",
-  "description": "Embed Google Tag Manager in your Solid app",
+  "version": "1.1.2",
+  "description": "Embed Google Tag Manager in your Solid app to enable tracking and analytics.",
   "main": "solid-google-tag-manager.mjs",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "type": "module",
-  "keywords": [],
+  "keywords": [
+    "solid",
+    "google",
+    "tag",
+    "manager",
+    "analytics"
+  ],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "@solid-primitives/script-loader": "^2.1.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/FredericDesgreniers/solid-google-tag-manager.git"
   }
 }

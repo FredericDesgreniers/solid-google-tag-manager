@@ -1,4 +1,4 @@
-A simple library to load the google tag manager script into your solid-start application.
+A simple library to load the google tag manager script into your solid-start application to enable tracking and analytics.
 
 # Install
 
