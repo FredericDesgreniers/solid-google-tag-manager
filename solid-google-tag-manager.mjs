@@ -1,3 +1,5 @@
+import { createScriptLoader } from "@solid-primitives/script-loader";
+
 export function createGoogleTagManagerElement(tag) {
   return createScriptLoader({
     src: `https://www.googletagmanager.com/gtag/js?id=${tag}`,
