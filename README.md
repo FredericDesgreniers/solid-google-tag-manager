@@ -1,4 +1,4 @@
-A simple library to load the google tag manager script into your solid-start application to enable tracking and analytics.
+A simple library to load the google tag manager script into your solid-start application to integrate tracking and analytics with Google.
 
 See this note on how to use it: https://frde.me/notes/solid-start-google-tag-manager
 
